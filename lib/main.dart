@@ -2,12 +2,12 @@ import 'package:client/common/view/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const _App());
+  runApp(const App());
 }
 
 // private 변수 선언하는 class는 underbar 붙인다.
-class _App extends StatelessWidget {
-  const _App({super.key});
+class App extends StatelessWidget {
+  const App({super.key});
 
   // This widget is the root of your application.
   @override
